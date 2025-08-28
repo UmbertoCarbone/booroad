@@ -39,7 +39,7 @@ export default function Travel() {
             <form className="mb-5" onSubmit={handleSubmit}>
                 <div className="row g-2 align-items-end">
                     <div className="col">
-                        <label for="nome_viaggio">Nome viaggio</label>
+                        <label htmlFor="nome_viaggio">Nome viaggio</label>
                         <input
                             id="nome_viaggio"
                             type="text"
@@ -51,7 +51,7 @@ export default function Travel() {
                         />
                     </div>
                     <div className="col">
-                        <label for="partenza">Data di partenza</label>
+                        <label htmlFor="partenza">Data di partenza</label>
                         <input
                             id="partenza"
                             type="date"
@@ -63,7 +63,7 @@ export default function Travel() {
                         />
                     </div>
                     <div className="col">
-                        <label for="ritorno">Data di ritorno</label>
+                        <label htmlFor="ritorno">Data di ritorno</label>
                         <input
                             id="ritorno"
                             type="date"

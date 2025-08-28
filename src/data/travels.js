@@ -3,8 +3,8 @@ const travel = [
         id: 1,
         name: "Viaggio in Sicilia",
         city: "Palermo",
-        dataPartenza: "2024-07-10",
-        dataRitorno: "2024-07-17",
+        dataPartenza: "10-07-2024",
+        dataRitorno: "17-07-2024",
         partecipanti: [
             {
                 name: "Mario",
@@ -69,8 +69,8 @@ const travel = [
         id: 2,
         name: "Tour delle Dolomiti",
         city: "Bolzano",
-        dataPartenza: "2024-08-05",
-        dataRitorno: "2024-08-12",
+        dataPartenza: "05-08-2024",
+        dataRitorno: "12-08-2024",
         partecipanti: [
             {
                 name: "Giulia",
@@ -141,8 +141,8 @@ const travel = [
         id: 3,
         name: "Weekend a Venezia",
         city: "Venezia",
-        dataPartenza: "2024-09-14",
-        dataRitorno: "2024-09-16",
+        dataPartenza: "14-09-2024",
+        dataRitorno: "16-09-2024",
         partecipanti: [
             {
                 name: "Sara",
@@ -213,8 +213,8 @@ const travel = [
         id: 4,
         name: "Vacanza a Firenze",
         city: "Firenze",
-        dataPartenza: "2024-10-01",
-        dataRitorno: "2024-10-07",
+        dataPartenza: "01-10-2024",
+        dataRitorno: "07-10-2024",
         partecipanti: [
             {
                 name: "Alessandro",
@@ -278,8 +278,8 @@ const travel = [
         id: 5,
         name: "Tour Roma Antica",
         city: "Roma",
-        dataPartenza: "2024-11-03",
-        dataRitorno: "2024-11-10",
+        dataPartenza: "03-11-2024",
+        dataRitorno: "10-11-2024",
         partecipanti: [
             {
                 name: "Martina",
@@ -343,8 +343,8 @@ const travel = [
         id: 6,
         name: "Escursione in Sardegna",
         city: "Cagliari",
-        dataPartenza: "2024-12-15",
-        dataRitorno: "2024-12-22",
+        dataPartenza: "15-12-2024",
+        dataRitorno: "22-12-2024",
         partecipanti: [
             {
                 name: "Davide",
@@ -408,8 +408,8 @@ const travel = [
         id: 7,
         name: "Giro della Toscana",
         city: "Pisa",
-        dataPartenza: "2025-01-10",
-        dataRitorno: "2025-01-17",
+        dataPartenza: "10-01-2025",
+        dataRitorno: "17-01-2025",
         partecipanti: [
             {
                 name: "Francesca",
@@ -473,8 +473,8 @@ const travel = [
         id: 8,
         name: "Visita a Napoli",
         city: "Napoli",
-        dataPartenza: "2025-02-20",
-        dataRitorno: "2025-02-25",
+        dataPartenza: "20-02-2025",
+        dataRitorno: "25-02-2025",
         partecipanti: [
             {
                 name: "Stefano",
@@ -546,8 +546,8 @@ const travel = [
         id: 9,
         name: "Scoperta delle Cinque Terre",
         city: "La Spezia",
-        dataPartenza: "2025-03-05",
-        dataRitorno: "2025-03-12",
+         dataPartenza: "05-03-2025",
+        dataRitorno: "12-03-2025",
         partecipanti: [
             {
                 name: "Elena",
@@ -618,8 +618,8 @@ const travel = [
         id: 10,
         name: "Avventura in Umbria",
         city: "Perugia",
-        dataPartenza: "2025-04-18",
-        dataRitorno: "2025-04-25",
+        dataPartenza: "18-04-2025",
+        dataRitorno: "25-04-2025",
         partecipanti: [
             {
                 name: "Paolo",
