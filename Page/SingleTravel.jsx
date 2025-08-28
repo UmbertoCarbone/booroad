@@ -126,7 +126,7 @@ export default function SingleTravel() {
 
 
                     <hr />
-
+                    <h5><strong>Cerca Partecipante</strong></h5>
                     <input
                         type="text"
                         value={query}
@@ -138,7 +138,7 @@ export default function SingleTravel() {
                     <hr />
 
 
-                    <h5>Partecipanti:</h5>
+                    <h5 className="pb-2"><strong>Partecipanti</strong></h5>
                     <div className="accordion" id="accordionPartecipanti">
                         {filteredPartecipanti.length === 0 && (
                             <div className="text-danger mb-3">Nessun partecipante trovato.</div>
