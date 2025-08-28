@@ -27,7 +27,7 @@ export default function SingleTravel() {
     );
 
     return (
-        <div className="container py-5 mt-5">
+        <div className="container py-5 mt-5 text-center">
             <div className="card mx-auto" style={{ maxWidth: "1000px" }}>
                 <img
                     src={`https://picsum.photos/500/300?random=${initialTravel.id}`}
@@ -68,7 +68,7 @@ export default function SingleTravel() {
                             setNewCodiceFiscale("");
                         }}
                     >
-                        <div className="row g-2 mb-2">
+                        <div className="row g-2 mb-4">
                             <div className="col">
                                 <input
                                     type="text"
@@ -90,7 +90,7 @@ export default function SingleTravel() {
                                 />
                             </div>
                         </div>
-                        <div className="row g-2 mb-2">
+                        <div className="row g-2 mb-4">
                             <div className="col">
                                 <input
                                     type="email"
@@ -124,6 +124,9 @@ export default function SingleTravel() {
                         </button>
                     </form>
 
+
+                    <hr />
+
                     <input
                         type="text"
                         value={query}
@@ -131,6 +134,10 @@ export default function SingleTravel() {
                         placeholder="Cerca un partecipante..."
                         className="form-control mb-3"
                     />
+
+                    <hr />
+
+
                     <h5>Partecipanti:</h5>
                     <div className="accordion" id="accordionPartecipanti">
                         {filteredPartecipanti.length === 0 && (
